@@ -1,0 +1,101 @@
+@font-face {
+	font-family: robotoLight;
+	src: url("../font/Roboto/Roboto-light.ttf");
+}
+
+@font-face {
+	font-family: robotoBlack;
+	src: url("../font/Roboto/Roboto-black.ttf");
+}
+
+@font-face {
+	font-family: robotoBold;
+	src: url("../font/Roboto/.ttf");
+}
+
+body {
+	color:white;
+	background-color: #272822;
+}
+
+.station {
+	font-family: 'robotoLight';
+	font-size: 24px;
+	width: auto;
+	height: auto;
+	margin: auto;
+	border:1px white solid;
+}
+
+.name {
+	width: 5%;
+	font-family: 'robotoBlack';
+	float: left;
+	text-align: center;
+	height: auto;
+}
+
+.weather {
+	height: auto
+	width: 30%;
+	border: 2px #000 solid;
+	position: absolute;
+	top: 30px;
+	left: 30%;
+	margin: auto;
+}
+
+.linje {
+	width: 5%;
+	font-family: 'robotoLight';
+	float: left;
+	height: auto;
+}
+
+.info {
+	height: 100px;
+	width: 100%;
+}
+
+.direction {
+	width: 40%;
+	float: left;
+	height: auto;
+}
+
+.logo {
+	width: 2%;
+	position: absolute;
+	left: 115px;
+	top: 20px;
+
+}
+
+.title {
+	font-size: 31px;
+
+	font-family: 'robotoLight'
+}
+
+.pointers {
+	background-color: blue;
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.servertime {
+	font-family: 'robotoLight';
+	font-size: 28px;
+	float: right;
+	margin: 10px 80px 0 0;
+	height: auto;	
+}
+
+.stationname {
+	height: auto;
+	width: 100%;
+	font-size: 30px;
+	font-family: 'robotoLight';
+	margin: 10px 0 0 0;
+}
