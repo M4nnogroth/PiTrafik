@@ -5,4 +5,4 @@ PHP based tram/buss scheduling app for Raspberry Pi using Västtrafik API.
 ## Screenshot
 ![screenshot](/readme/screenshot.png)
 ## Picture
-![camera](/images/camera.jpg)
+![camera](/readme/camera.jpg)
